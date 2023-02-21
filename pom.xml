@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.nfalco79</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Organisation Parent pom.xml</name>
     <description>A Maven parent pom where define common lifecycle for these projects</description>
@@ -40,7 +40,7 @@
         <url>https://github.com/nfalco79/parent-pom</url>
         <connection>scm:git:git@github.com:nfalco79/parent-pom.git</connection>
         <developerConnection>scm:git:git@github.com:nfalco79/parent-pom.git</developerConnection>
-        <tag>1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
