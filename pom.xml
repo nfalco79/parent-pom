@@ -52,34 +52,33 @@
 
         <!-- default plugin's version -->
         <maven-coveralls-plugin.version>4.3.0</maven-coveralls-plugin.version>
-        <maven-sonar-packaging-plugin.version>1.21.0.505</maven-sonar-packaging-plugin.version>
+        <maven-sonar-packaging-plugin.version>1.23.0.740</maven-sonar-packaging-plugin.version>
         <maven-deployer-extension.version>0.3.0</maven-deployer-extension.version>
-        <maven-karaf-plugin.version>4.3.3</maven-karaf-plugin.version>
-        <maven-docker-plugin.version>0.37.0</maven-docker-plugin.version>
-        <maven-dependency-plugin.version>3.3.0</maven-dependency-plugin.version>
+        <maven-docker-plugin.version>0.44.0</maven-docker-plugin.version>
+        <maven-dependency-plugin.version>3.6.1</maven-dependency-plugin.version>
         <maven-site-plugin.version>3.9.1</maven-site-plugin.version>
-        <maven-reports-plugin.version>3.2.1</maven-reports-plugin.version>
-        <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
-        <maven-scm-plugin.version>1.11.3</maven-scm-plugin.version>
-        <maven-release-plugin.version>3.0.0-M7</maven-release-plugin.version>
-        <maven-shade-plugin.version>3.4.0</maven-shade-plugin.version>
-        <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
-        <maven-plugin-plugin.version>3.6.4</maven-plugin-plugin.version>
+        <maven-reports-plugin.version>3.5.0</maven-reports-plugin.version>
+        <maven-javadoc-plugin.version>3.6.3</maven-javadoc-plugin.version>
+        <maven-scm-plugin.version>2.0.1</maven-scm-plugin.version>
+        <maven-release-plugin.version>3.0.1</maven-release-plugin.version>
+        <maven-shade-plugin.version>3.5.2</maven-shade-plugin.version>
+        <maven-compiler-plugin.version>3.12.1</maven-compiler-plugin.version>
+        <maven-plugin-plugin.version>3.11.0</maven-plugin-plugin.version>
         <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
         <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
-        <maven-source-plugin.version>3.2.0</maven-source-plugin.version>
-        <maven-assembly-plugin.version>3.3.0</maven-assembly-plugin.version>
-        <maven-antrun-plugin.version>3.0.0</maven-antrun-plugin.version>
-        <maven-enforcer-plugin.version>3.2.1</maven-enforcer-plugin.version>
-        <maven-surefire-plugin.version>3.0.0-M9</maven-surefire-plugin.version>
-        <maven-wagon-plugin.version>3.4.3</maven-wagon-plugin.version>
-        <maven-helper-plugin.version>3.2.0</maven-helper-plugin.version>
-        <maven-install-plugin.version>3.1.0</maven-install-plugin.version>
-        <maven-deploy-plugin.version>3.1.0</maven-deploy-plugin.version>
+        <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
+        <maven-assembly-plugin.version>3.6.0</maven-assembly-plugin.version>
+        <maven-antrun-plugin.version>3.1.0</maven-antrun-plugin.version>
+        <maven-enforcer-plugin.version>3.4.1</maven-enforcer-plugin.version>
+        <maven-surefire-plugin.version>3.2.5</maven-surefire-plugin.version>
+        <maven-wagon-plugin.version>3.5.3</maven-wagon-plugin.version>
+        <maven-helper-plugin.version>3.4.0</maven-helper-plugin.version>
+        <maven-install-plugin.version>3.1.1</maven-install-plugin.version>
+        <maven-deploy-plugin.version>3.1.1</maven-deploy-plugin.version>
         <maven-bnd-plugin.version>6.1.0</maven-bnd-plugin.version>
-        <maven-jacoco-plugin.version>0.8.8</maven-jacoco-plugin.version>
-        <maven-checkstyle-plugin.version>3.2.0</maven-checkstyle-plugin.version>
-        <checkstyle.version>9.3</checkstyle.version>
+        <maven-jacoco-plugin.version>0.8.11</maven-jacoco-plugin.version>
+        <maven-checkstyle-plugin.version>3.3.1</maven-checkstyle-plugin.version>
+        <checkstyle.version>10.13.0</checkstyle.version>
         <smartics-enforcer-rules.version>1.0.2</smartics-enforcer-rules.version>
 
         <!-- default project's settings -->
@@ -108,7 +107,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.13.2</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
