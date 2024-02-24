@@ -56,7 +56,7 @@
         <maven-deployer-extension.version>0.3.0</maven-deployer-extension.version>
         <maven-docker-plugin.version>0.44.0</maven-docker-plugin.version>
         <maven-dependency-plugin.version>3.6.1</maven-dependency-plugin.version>
-        <maven-site-plugin.version>3.9.1</maven-site-plugin.version>
+        <maven-site-plugin.version>3.12.1</maven-site-plugin.version>
         <maven-reports-plugin.version>3.5.0</maven-reports-plugin.version>
         <maven-javadoc-plugin.version>3.6.3</maven-javadoc-plugin.version>
         <maven-scm-plugin.version>2.0.1</maven-scm-plugin.version>
