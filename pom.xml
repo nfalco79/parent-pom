@@ -97,7 +97,7 @@
         <releaseProfiles>release</releaseProfiles>
 
         <!-- default dependency's version -->
-        <mockito.version>4.3.1</mockito.version>
+        <mockito.version>5.11.0</mockito.version>
         <assertj.version>3.22.0</assertj.version>
         <junit.version>4.13.2</junit.version>
     </properties>
