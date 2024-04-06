@@ -72,7 +72,7 @@
         <maven-enforcer-plugin.version>3.4.1</maven-enforcer-plugin.version>
         <maven-surefire-plugin.version>3.2.5</maven-surefire-plugin.version>
         <maven-wagon-plugin.version>3.5.3</maven-wagon-plugin.version>
-        <maven-helper-plugin.version>3.4.0</maven-helper-plugin.version>
+        <maven-helper-plugin.version>3.5.0</maven-helper-plugin.version>
         <maven-install-plugin.version>3.1.1</maven-install-plugin.version>
         <maven-deploy-plugin.version>3.1.1</maven-deploy-plugin.version>
         <maven-bnd-plugin.version>6.1.0</maven-bnd-plugin.version>
