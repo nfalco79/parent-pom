@@ -425,6 +425,73 @@
 
     <profiles>
         <profile>
+            <id>java8</id>
+            <activation>
+                <jdk>(6, 8]</jdk>
+            </activation>
+            <properties>
+                <!-- instruct compiler byte code level produce -->
+                <maven.compiler.target>1.${java.level}</maven.compiler.target>
+                <maven.compiler.source>1.${java.level}</maven.compiler.source>
+                <maven.compiler.testSource>1.${java.level}</maven.compiler.testSource>
+                <maven.compiler.testTarget>1.${java.level}</maven.compiler.testTarget>
+            </properties>
+            <build>
+                <pluginManagement>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-javadoc-plugin</artifactId>
+                            <configuration>
+                                <!-- Silence error javax.interceptor.InterceptorBinding not found -->
+                                <additionalDependencies>
+                                    <additionalDependency>
+                                        <groupId>javax.interceptor</groupId>
+                                        <artifactId>javax.interceptor-api</artifactId>
+                                        <version>1.2.2</version>
+                                    </additionalDependency>
+                                </additionalDependencies>
+                            </configuration>
+                        </plugin>
+                    </plugins>
+                </pluginManagement>
+                <plugins>
+                    <!-- instruct compiler about API signature of JDK, available only since JDK9 -->
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>animal-sniffer-maven-plugin</artifactId>
+                        <version>${animal-sniffer.version}</version>
+                        <executions>
+                            <execution>
+                                <id>check</id>
+                                <goals>
+                                    <goal>check</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                        <configuration>
+                            <signature>
+                                <groupId>org.codehaus.mojo.signature</groupId>
+                                <artifactId>java1${java.level}</artifactId>
+                            </signature>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>java11</id>
+            <activation>
+                <jdk>(8, ]</jdk>
+            </activation>
+            <properties>
+                <!-- instruct compiler about API signature of JDK, available only since JDK9 -->
+                <maven.compiler.release>${java.level}</maven.compiler.release>
+
+                <checkstyle.version>10.12.5</checkstyle.version>
+            </properties>
+        </profile>
+        <profile>
             <id>coveralls</id>
             <activation>
                 <property>
