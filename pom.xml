@@ -78,7 +78,7 @@
         <maven-bnd-plugin.version>6.1.0</maven-bnd-plugin.version>
         <maven-jacoco-plugin.version>0.8.11</maven-jacoco-plugin.version>
         <maven-checkstyle-plugin.version>3.3.1</maven-checkstyle-plugin.version>
-        <checkstyle.version>10.13.0</checkstyle.version>
+        <checkstyle.version>10.16.0</checkstyle.version>
         <smartics-enforcer-rules.version>1.0.2</smartics-enforcer-rules.version>
 
         <!-- default project's settings -->
