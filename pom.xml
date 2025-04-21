@@ -98,7 +98,7 @@
 
         <!-- default dependency's version -->
         <mockito.version>4.3.1</mockito.version>
-        <assertj.version>3.22.0</assertj.version>
+        <assertj.version>3.25.3</assertj.version>
         <junit.version>4.13.2</junit.version>
     </properties>
 
